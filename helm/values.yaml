@@ -1,0 +1,6 @@
+test:
+  deploymentName: hello-deployment
+  image: smkayathiri/gcp-app:replaceImageTag
+  replicas: 2
+  serviceName: hello-service
+  servicetype: NodePort
